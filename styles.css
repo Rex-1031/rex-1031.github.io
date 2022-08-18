@@ -22,64 +22,11 @@ p{
     color: antiquewhite;
 }
 
-.slideshow,
-.slideshow::after{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: 0;
-}
 
-.slideshow::after{
-    content: '';
-    background: transparent url('./assets/bg1.jpg') repeat top left;
-}
-
-
-/* Main Styles */
-header, .message{
-    background-color: rgb(24, 24, 24);
-    color: cadetblue;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    text-transform: uppercase;
-    border-bottom: 1px solid cadetblue;
-
-}
-
-header h3, button{
-    margin: 10px 20px;
-}
-
-nav a:hover{
-    color: aqua;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+main{
+    background-color: #000000;
     height: 90vh;
-    background-image: url('./assets/bg1.jpg');
-    background-size: cover;
-    
 }
-
-.message{
-    border: 2px solid cadetblue;
-    padding: 20px;
-    text-align: center;
-    border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
 
 .button-styles{
     border: none;
@@ -105,6 +52,55 @@ a{
     font-weight: bold;
     padding: 10px 20px;
 }
+
+/* header styles */
+header, .message{
+    background-color: rgb(24, 24, 24);
+    color: cadetblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+
+}
+
+header h3, button{
+    margin: 10px 20px;
+}
+
+.active{
+    color: aqua;
+}
+
+.nav-item:hover{
+    color: aqua;
+}
+
+
+/* Contruction Page (index.html) */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url('./assets/bg1.jpg');
+    background-size: cover;
+    
+}
+
+.message{
+    border: 2px solid cadetblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
 
 
 /* Contact Styles */
@@ -175,6 +171,7 @@ input, textarea{
     color: cadetblue;
 }
 
+/* Footer Styles */
 
 footer{
     text-align: center;
