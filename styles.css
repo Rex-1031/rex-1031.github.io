@@ -23,11 +23,38 @@ p{
 }
 
 
+
 main{
     background-color: #000000;
-    height: 90vh;
 }
 
+.hero-section, .about-section,.work-section,.contact-section{
+    background-color:#000000;
+    color: cadetblue;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section,.work-section,.contact-section{
+    border-top: 2px solid rgb(24, 24, 24);
+    text-transform: uppercase;
+}
+
+.hero-section{
+    background-image: url('/assets/bg2.jpg');
+    background-size: cover;
+}
+
+.hero-greeting{
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid cadetblue;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 .button-styles{
     border: none;
     background-color:cadetblue;
