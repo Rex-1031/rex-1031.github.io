@@ -28,32 +28,50 @@ main{
     background-color: #000000;
 }
 
-.hero-section, .about-section,.work-section,.contact-section{
+.hero-section{
     background-color:#000000;
     color: cadetblue;
-    height: 95vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.about-section,.work-section,.contact-section{
+    border-top: 2px solid rgb(24, 24, 24);
+    text-transform: uppercase;
+    background-color:#000000;
+    color: cadetblue;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.about-section,.work-section,.contact-section{
-    border-top: 2px solid rgb(24, 24, 24);
-    text-transform: uppercase;
-}
-
 .hero-section{
-    background-image: url('/assets/bg2.jpg');
+    background: linear-gradient(70deg, rgb(24, 24, 24) 50%, rgba(0, 0, 0, 0) 30%), url('/assets/bg2.jpg');
     background-size: cover;
 }
 
+
 .hero-greeting{
-    background-color: rgb(24, 24, 24);
+    position: absolute;
     padding: 20px;
     border-radius: 8px;
-    border: 1px solid cadetblue;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    left: 100px;
+}
+
+.hero-greeting h1{
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+
+.hero-greeting h2{
+    font-size: 2rem;
 }
 .button-styles{
     border: none;
@@ -81,18 +99,21 @@ a{
 }
 
 /* header styles */
-header, .message{
+.message{
     background-color: rgb(24, 24, 24);
     color: cadetblue;
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     text-transform: uppercase;
+    border-bottom: 1px solid antiquewhite;
+}
 
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 header h3, button{
@@ -105,6 +126,14 @@ header h3, button{
 
 .nav-item:hover{
     color: aqua;
+}
+
+.logo{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid cadetblue;
+    width: 50px;
+    text-align: center;
 }
 
 
