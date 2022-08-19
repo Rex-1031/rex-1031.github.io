@@ -17,7 +17,7 @@ h3, h4{
     color: antiquewhite;
 }
 
-p{
+p, li{
     letter-spacing: 2.5px;
     color: antiquewhite;
 }
@@ -40,21 +40,21 @@ main{
 
 
 
-.about-section,.work-section,.contact-section{
+.work-section,.contact-section{
     border-top: 2px solid rgb(24, 24, 24);
-    text-transform: uppercase;
     background-color:#000000;
     color: cadetblue;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .hero-section{
-    background: linear-gradient(70deg, rgb(24, 24, 24) 50%, rgba(0, 0, 0, 0) 30%), url('/assets/bg2.jpg');
+    background: linear-gradient(70deg, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 30%), url('/assets/bg2.jpg');
     background-size: cover;
+
 }
 
 
@@ -63,6 +63,7 @@ main{
     padding: 20px;
     border-radius: 8px;
     left: 100px;
+    text-transform: uppercase;
 }
 
 .hero-greeting h1{
@@ -86,6 +87,19 @@ main{
     margin: 20px;
 }
 
+.button-styles-secondary{
+    border: 2px solid cadetblue;
+    background-color: #181818;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px, 20px;
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    
+}
+
 .button-styles:hover{
     background-color: aqua;
 }
@@ -105,9 +119,9 @@ a{
 }
 
 header{
+    background: transparent;
     width: 100%;
     text-transform: uppercase;
-    border-bottom: 1px solid antiquewhite;
 }
 
 nav{
@@ -136,6 +150,66 @@ header h3, button{
     text-align: center;
 }
 
+
+/* about styles */
+.about-page{
+    border-top: 2px solid rgb(24, 24, 24);
+    background-color: antiquewhite;
+    color: #181818;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-page-section{
+    width: 80vh;
+    margin: 25px 0;
+}
+
+.about-page-p, .about-list li{
+    color: #181818;
+}
+
+.about-page-title{
+    background-color: antiquewhite;
+    color: cadetblue;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+
+.about-section-landing{
+    border-top: 2px solid rgb(24, 24, 24);
+    background-color:#181818;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-title{
+    color: cadetblue;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.about-subtitles{
+    color: cadetblue;
+    text-transform: uppercase;
+}
+
+.about-content{
+    width: 80vw;
+}
+
+.about-p{
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
 
 /* Contruction Page (index.html) */
 .container{
@@ -227,6 +301,8 @@ input, textarea{
 .contact-socials-bar:hover a{
     color: cadetblue;
 }
+
+
 
 /* Footer Styles */
 
