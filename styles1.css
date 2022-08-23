@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Roboto&display=swap');
+/*colors{
+    LIGHT SHADE: #faf9f8
+    LIGHT ACCENT: #b6b2a8
+    MAIN COLOR: #a9cb66
+    DARK ACCENT: #6291d6
+    DARK SHADE: #4831d4
+
+} */
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color:#4831D4 ;
+}
+
+footer{
+    background-color:#4831D4;
+    color: #a9cb66;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c06af;
+}
+
+.section{
+    padding: 20px;
+    background-color:#faf9f8;
+    color: #1c06af;
+    margin: 0;
+}
+
+.section-2{
+    padding: 20px;
+    background-color:#4831D4;
+    color: #faf9f8;
+    margin: 0;
+}
+
+.section-2 .title{
+    color: #faf9f8;
+}
+
+.section-2 .subtitle{
+    color: #b6b2a8;
+}
+
+.title, .subtitle{
+    color: #4831D4;
+    letter-spacing: 2.5px;
+}
+.title{
+    text-transform: uppercase;
+}
+
+.subtitle{
+    text-transform: capitalize;
+    align-self: center;
+}
+
+p, li{
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+
+.subsection-li{
+    background-color:#a9cb66;
+    color: #1c06af;
+    padding: 20px;
+    list-style: none;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.subsection-li-2{
+    background-color: #1c06af;
+    color: #a9cb66;
+}
+
+
+
+.subsection-1, .subsection-2, .subsection-3, .subsection-4, .subsection-5{
+    padding: 20px;
+    margin: 25px 0;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.subsection-1{
+    background-color: #6291d6;
+    color: #faf9f8;
+}
+
+
+.subsection-2{
+    background-color: #4831D4;
+    color: #faf9f8;
+}
+
+.subsection-2 .subtitle{
+    color: #faf9f8;
+}
+
+.subsection-3{
+    background-color: #b6b2a8;
+}
+
+
+.subsection-4{
+    background-color: #faf9f8;
+    color: #1c06af;
+}
+
+.subsection-4 .subtitle{
+    color: #4831D4;
+}
+
+
+.subsection-5{
+    background-color: #1c06af;
+    color: #faf9f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subsection-5 .subtitle{
+    color: #a9cb66;
+}
+
+.card-body{
+    background-color: #4831D4;
+    color: #a9cb66;
+}
+/************************************** Hero Section Styles*************************************************/
+.hero-section{
+    color: #a9cb66;
+    background-color: #4831D4;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.hero-section{
+    background: linear-gradient(70deg, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 30%), url('/assets/bg2.jpg');
+    background-size: cover;
+
+}
+
+
+.hero-greeting{
+    position: absolute;
+    padding: 20px;
+    border-radius: 8px;
+    left: 100px;
+    text-transform: uppercase;
+}
+
+.hero-greeting h1{
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+
+.hero-greeting h2{
+    font-size: 2rem;
+}
+
+.badge{
+    background-color: #a9cb66;
+    color:#1c06af;
+}
