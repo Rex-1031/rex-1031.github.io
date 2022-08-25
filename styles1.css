@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Roboto&display=swap');
 :root{
     /* Color Scheme 1 */
-    /* --light-shade: #faf9f8;
-    --light-accent: #b6b2a8;
-    --main-color: #a9cb66;
-    --dark-accent: #6291d6;
-    --dark-shade: #4831d4;
-    --dark-bg: #1c06af; */
+    /* --light-shade: #fbfafa;
+    --light-accent: #828081;
+    --main-color: #7ca6ba;
+    --dark-accent: #3cc47c;
+    --dark-shade: #1e392a;
+    --dark-bg: #101f16; */
 
-    /* Color Scheme 2 */
     --light-shade: #fbfafa;
     --light-accent: #828081;
     --main-color: #7ca6ba;
