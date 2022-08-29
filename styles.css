@@ -178,12 +178,8 @@ p {
     background-color: var(--main-color);
     color: var(--light-shade);
     font-family: 'Roboto';
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: larger;
     border: none;
     letter-spacing: 2px;
-    padding: 10px;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -197,11 +193,7 @@ p {
     background-color: transparent;
     color: var(--main-color);
     font-family: 'Roboto';
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: larger;
     border: solid 1.5px var(--main-color);
-    padding: 10px;
     letter-spacing: 2px;
     text-decoration: none;
     border-radius: 5px;
@@ -216,11 +208,8 @@ p {
     background-color: none;
     color: var(--light-bg);
     font-family: 'Roboto';
-    text-transform: uppercase;
     font-weight: bolder;
-    font-size: larger;
     border: solid 1.5px var(--light-bg);
-    padding: 10px;
     border-radius: 5px;
     letter-spacing: 2px;
     text-decoration: none;
@@ -237,7 +226,6 @@ p {
     font-family: 'Raleway';
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: larger;
     border: solid 1.5px var(--light-shade);
     padding: 10px;
     letter-spacing: 2px;
@@ -267,6 +255,18 @@ p {
     border: solid 1.5px var(--dark-accent);
     text-decoration: none;
 }
+
+.btn-sm{
+    font-size: small;
+    padding: 5px;
+}
+.btn-md{
+    font-size: medium;
+    padding: 1px 15px;
+}
+
+
+
 
 .icons-sm{
     font-size: 1rem;
@@ -321,3 +321,33 @@ header{
     margin: 0 5px;
 }
 
+
+/* Not Found page styles */
+main{
+    background: #ffffff no-repeat center/50% url('/assets/undraw_Page_not_found_re_e9o6.png');
+    color: var(--dark-bg);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notFound{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 8.5em;
+}
+
+.notFound-header{
+    background-color: var(--dark-shade);
+    height: 5vw;
+}
+.notFound footer{
+    background-color: var(--dark-shade);
+    height: 5vw;
+}
